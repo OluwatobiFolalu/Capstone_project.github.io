@@ -1,1 +1,63 @@
 /*   The file represents the CSS for the project.  */ 
+body{
+    
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-color:hsl(225, 100%, 94%);
+   font-family: 'Red Hat Display', sans-serif;
+
+}
+
+
+p{
+    font-size: 1.2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    
+}
+
+section{
+    margin: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.container {
+    width: 450px;
+    height: 70vh;
+    border-width: 5px;
+    border-style: solid;
+    border-color: lightcoral;
+    position: fixed;
+    margin:auto;
+    display: grid;
+    text-align: center;
+    background-color: white;
+    
+   
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    display: block;
+    bottom: 0;
+    position: fixed;
+    
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .plan {
+      box-sizing: border-box;
+      
+      background-color: thistle;
+  }
+
+ 
