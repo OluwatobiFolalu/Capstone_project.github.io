@@ -27,6 +27,7 @@ section{
 }
 
 .container {
+    border-radius: 20px;
     width: 450px;
     height: 70vh;
     border-width: 5px;
@@ -37,6 +38,8 @@ section{
     display: grid;
     text-align: center;
     background-color: white;
+    box-shadow: gray 5px 5px 5px 5px;
+    
     
    
 }
