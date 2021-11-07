@@ -5,15 +5,14 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
    background-color:hsl(225, 100%, 94%);
-   font-family: 'Red Hat Display', sans-serif;
-
+   font-family: 'Red Hat Display';
+   color:rgb(126, 130, 129);
 }
 
-
 p{
-    font-size: 1.2em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    margin: 1rem;
+    font-size: 16px;
+    font-weight: 500;
     
 }
 
@@ -26,22 +25,40 @@ section{
 
 }
 
+.hero{
+    background-image: url('images/illustration-hero.svg') ;
+    background-repeat: no-repeat;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+
 .container {
+    
     border-radius: 20px;
     width: 450px;
-    height: 70vh;
-    border-width: 5px;
-    border-style: solid;
-    border-color: lightcoral;
+    height: 80vh;
     position: fixed;
     margin:auto;
-    display: grid;
+    display: block;
     text-align: center;
     background-color: white;
-    box-shadow: gray 5px 5px 5px 5px;
+    
+    box-shadow:0px 10px 5px #aaaaaa;
     
     
-   
+}
+
+ h1{
+    margin: 1em;
+    font-weight: 900;
+    color:black;
+}
+
+#content{
+    margin: 1em;
+    padding-left: 2em;
+    padding-right: 2em;   
+    color: rgb(126, 130, 129); 
 }
 
 .attribution {
@@ -58,9 +75,62 @@ section{
   }
 
   .plan {
-      box-sizing: border-box;
       
-      background-color: thistle;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      margin-right: 2em;
+      margin-left: 2em;
+   
   }
 
+  span{
+      font-weight: 700;
+      color: black;
+  }
+  #price{
+      color:rgb(126, 130, 129);
+  }
+  #annual{
+      display: flex;
+      flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem;
+    
+     
+
+  }
+
+  #change{
+      text-decoration: none;
+  }
+
+  .payment{
+      display: flex;
+      flex-direction: column;
+
+  }
+
+
+
+  #button{
+      
+      height: 50px;
+      background-color: blue;
+      color: white;
+   margin: 1rem;
+      min-width: 300px;
+     
+      
+      box-shadow:0px 7px 5px #aaaaaa;
+      border-radius: 7px;
+      
+  }
+
+  
+
+
+  
  
