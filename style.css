@@ -1,1 +1,117 @@
-/*   The file represents the CSS for the project.  */ 
+body {
+    background-color:  hsl(225, 100%, 94%);
+    /* font-family: (https://fonts.google.com/specimen/Red+Hat+Display); */
+}
+.img-bg img {
+    width: 100%;
+    max-width: 100%;
+    
+}
+
+.box {
+    width: 400px;
+    height: 80vh; 
+    border-radius: 7%;
+    background-color: white;
+    position: relative;
+    bottom: 350px;
+    left: 500px;
+
+}
+
+.img-anim img {
+    width: 100%;
+    max-width: 30%;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+    position: relative;
+    left: 500px;
+    bottom: 900px ;
+}
+
+.section-2 {
+    position: relative;
+    bottom: 900px;
+}
+
+h1 {
+    margin-left: 585px;
+    color: hsl(223, 47%, 23%);
+}
+
+.section-2 p {
+    text-align: center;
+    margin-left: 80px;
+    align-items: justify;
+    font-size: 16px;
+    color:  hsl(224, 23%, 55%);
+}
+
+
+.section-3 {
+    width: 100%;
+    height: 70px;
+    max-width: 23.5%;
+    position: relative;
+    bottom: 900px;
+    left: 550px;
+    border-radius: 4%;
+    background-color: hsl(225, 100%, 98%); 
+}
+
+
+.img-music img {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.section-3 h4{
+    position: inherit;
+    bottom: 70px;
+    left: 80px;
+}
+
+.section-3 p {
+    position: inherit;
+    bottom: 84px;
+    left: 80px;
+}
+ a .change {
+    position: relative;
+    bottom: 130px;
+    left: 260px;
+    color: darkblue;
+}
+
+.pay {
+    width: 100%;
+    max-width: 23%;
+    height: 40px;
+    margin-left: 550px;
+    margin-top: 25px;
+    background-color: hsl(245, 75%, 52%);
+    border: blue;
+    color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+.section-2 a{
+    text-decoration: none;
+}
+.cancel {
+    margin-left: 650px;
+    position: relative;
+    top: 20px;
+    font-weight: 500;
+}
+
+
+ a :hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
