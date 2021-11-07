@@ -93,14 +93,14 @@ h1 {
 
 .cancel {
     font-weight: 800;
-    color: black;
+    color: rgb(90, 90, 90);
     text-decoration: none;
     } 
 
 .cancel:hover{
-    color: rgb(90, 90, 90);
+    color: black;
     }
-
+/* the media query does not tally with the style guide for mobile view. It's supposed to be 375 */
 @media (max-width: 450px) {
     .Order {
         width: 95%;
