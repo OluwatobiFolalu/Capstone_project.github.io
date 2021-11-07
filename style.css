@@ -24,7 +24,6 @@ body {
     background-color: #fff;
     margin: 5rem auto;
     width: 450px;
-    /* border-width: 5px; */
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 15px 36px -25px #000;
@@ -38,7 +37,6 @@ h1 {
     font-weight: 900;
 }
 .content-container{
-    display: block;
     width: 80%;
     margin: 0 auto;
     padding: 3em 1em;
