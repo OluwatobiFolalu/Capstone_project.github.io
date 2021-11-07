@@ -1,13 +1,15 @@
-body{
+body {
     background-color:  hsl(225, 100%, 94%);
+    /* font-family: (https://fonts.google.com/specimen/Red+Hat+Display); */
 }
 .img-bg img {
     width: 100%;
     max-width: 100%;
+    
 }
 
 .box {
-    width: 350px;
+    width: 400px;
     height: 80vh; 
     border-radius: 7%;
     background-color: white;
@@ -19,7 +21,7 @@ body{
 
 .img-anim img {
     width: 100%;
-    max-width: 26.3%;
+    max-width: 30%;
     border-top-left-radius: 7%;
     border-top-right-radius: 7%;
     position: relative;
@@ -33,12 +35,13 @@ body{
 }
 
 h1 {
-    margin-left: 550px;
+    margin-left: 585px;
     color: hsl(223, 47%, 23%);
 }
 
 .section-2 p {
     text-align: center;
+    margin-left: 80px;
     align-items: justify;
     font-size: 16px;
     color:  hsl(224, 23%, 55%);
@@ -51,7 +54,7 @@ h1 {
     max-width: 23.5%;
     position: relative;
     bottom: 900px;
-    left: 520px;
+    left: 550px;
     border-radius: 4%;
     background-color: hsl(225, 100%, 98%); 
 }
@@ -82,34 +85,33 @@ h1 {
     color: darkblue;
 }
 
-.section-4{
-    position: relative;
-    bottom: 860px;
-    left: 600px;
-    color: black;
-}
-
-button {
+.pay {
     width: 100%;
+    max-width: 23%;
     height: 40px;
-    max-width: 22%;
-    position: relative;
-    right: 98px;
-    bottom: 10px;
+    margin-left: 550px;
+    margin-top: 25px;
     background-color: hsl(245, 75%, 52%);
     border: blue;
     color: hsl(225, 100%, 98%);
     border-radius: 10px;
 }
+.section-2 a{
+    text-decoration: none;
+}
+.cancel {
+    margin-left: 650px;
+    position: relative;
+    top: 20px;
+    font-weight: 500;
+}
 
-a :hover {
+
+ a :hover {
     transform: scale(1.1);
 }
 
-.section-4 a{
-    width: 100%;
-    max-width: 100%;
-    text-decoration: none;
-    position: relative;
-    left: 30px;
-}
+
+
+
+
