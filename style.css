@@ -9,7 +9,7 @@ p,h1,h3,h4 {
     }
 
 .spacing >*+*{
-    margin-top: 2rem;
+    margin-top: 1.7rem;
     } 
 
 body {
@@ -24,7 +24,7 @@ body {
     background-color: #fff;
     margin: 5rem auto;
     width: 450px;
-    border-width: 5px;
+    /* border-width: 5px; */
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 15px 36px -25px #000;
@@ -45,6 +45,12 @@ h1 {
     text-align: center;
     }
 
+.text {
+    color:hsl(224, 23%, 55%);
+    line-height: 1.6;
+    margin-top: 1.2rem;
+    }
+
 .plan {
     background-color: hsl(225, 100%, 98%);
     padding: 1.5em 1.5em;
@@ -59,10 +65,11 @@ h1 {
 .change {
     margin-left: auto;
     color:hsl(245, 75%, 52%);
+    font-weight: 700;
 }
 
 .change:hover {
-    color: hsl(245, 58%, 57%);
+    color: hsl(245, 57%, 62%);
     text-decoration: none;
 }
 
