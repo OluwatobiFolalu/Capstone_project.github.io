@@ -1,1 +1,110 @@
 /*   The file represents the CSS for the project.  */ 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .card-body {
+    border-radius: 1rem;
+    width: 30%;
+    margin: 2rem auto;
+    background: white;
+    box-shadow: 4px 4px 4px rgb(82, 81, 81);
+  }
+  
+  .card-header > img {
+    width: 100%;
+  }
+  
+  .card-text,
+  .card-price {
+    margin: 2rem auto;
+    width: 75%;
+  }
+  
+  .card-text > h2,
+  p {
+    text-align: center;
+  }
+  
+  .card-text h2 {
+    font-weight: bolder;
+  }
+  
+  .card-text p {
+    margin-top: 0.5rem;
+    font-size: smaller;
+    color: rgb(163, 161, 161);
+    font-weight: bolder;
+    line-height: 1.1rem;
+  }
+  
+  .card-price {
+    background-color: rgb(245, 242, 242);
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-price > p a {
+    font-size: 0.9rem;
+    color: blueviolet;
+  }
+  
+  .price-details {
+    display: flex;
+  }
+  
+  .price-details img {
+    margin-right: 0.6rem;
+  }
+  
+  .price-details p {
+    font-size: 0.9rem;
+    color: rgb(97, 47, 47);
+    line-height: 1.6rem;
+  }
+  
+  button {
+    background-color: purple;
+    padding: 0.8rem;
+    width: 70%;
+    margin: 1rem 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 0.6rem;
+    box-shadow: 4px 4px 3px rgb(82, 81, 81);
+  }
+  
+  .card-body > h3 {
+    font-size: 1rem;
+    color: rgb(163, 161, 161);
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .card-body > h3 a {
+    text-decoration: none;
+    color: rgb(163, 161, 161);
+  }
+  
+  .card-body > h3 a:hover {
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+  }
+  
+  .card-price > p a {
+    text-decoration: none;
+  }
+  
