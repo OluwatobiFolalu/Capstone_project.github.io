@@ -1,1 +1,108 @@
 /*   The file represents the CSS for the project.  */ 
+.bgimg {
+  height: 900px;
+  width: fit-content;
+  background-color: hsl(225, 100%, 94%);
+  margin: 0px;
+}
+
+.hero {
+  background-color: white;
+  border-radius: 1rem;
+  height: 750px;
+  width: 450px;
+  position: absolute;
+  top: 100px;
+  left: 550px;
+}
+
+.order {
+  color: hsl(223, 47%, 23%);
+  margin: 30px 0px 0px;
+  padding: 20px;
+  text-align: center;
+}
+
+.plan {
+  background-color: hsl(225, 100%, 98%);
+  margin: 2rem;
+  padding: 1em 2em;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1em;
+}
+.yr {
+  color: rgb(90, 90, 90);
+}
+.change {
+  margin-left: auto;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+.change:hover {
+  color: hsl(245, 57%, 62%);
+  text-decoration: none;
+}
+
+.par {
+  color: hsl(223, 47%, 23%);
+  margin: 0px;
+  padding: 5px 65px;
+  text-align: center;
+}
+
+.music {
+  padding: 0px 10px;
+  margin-top: 10px;
+}
+
+
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #2a19ab;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+  left: 70px;
+  width: 300px;
+}
+
+.btn:hover {
+  background: #7a3bcc;
+  background-image: -webkit-linear-gradient(top, #7a3bcc, #7a3bcc);
+  background-image: -moz-linear-gradient(top, #7a3bcc, #7a3bcc);
+  background-image: -ms-linear-gradient(top, #7a3bcc, #7a3bcc);
+  background-image: -o-linear-gradient(top, #7a3bcc, #7a3bcc);
+  background-image: linear-gradient(to bottom, #7a3bcc, #7a3bcc);
+  text-decoration: none;
+}
+
+.can {
+  font-weight: bold;
+  display: inline-block;
+  color: hsl(225, 5%, 50%);
+  position: relative;
+  top: 70px;
+  right: 120px;
+}
+.can {
+  font-weight: 800;
+  color: rgb(90, 90, 90);
+  text-decoration: none;
+}
+
+.can:hover {
+  color: black;
+}
+
