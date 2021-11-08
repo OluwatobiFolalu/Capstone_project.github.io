@@ -81,15 +81,6 @@ h3 {
     box-shadow: 3px 3px 13px 9px rgb(202, 230, 230);
 }
 
-
-/*input-group i {
-    position: absolute;
-    top: 13px;
-    left: 17px;
-    font-size: 18px;
-    color: #aaa;
-}*/
-
 .price1 {
     display: flex;
     flex-direction: row;
@@ -223,7 +214,6 @@ h3 {
     }
     .img2 {
         size: 5 x 5;
-        margin: 10px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -246,7 +236,7 @@ h3 {
     #p4 {
         height: 40%;
         text-align: center;
-        font-size: 15px;
+        font-size: 10px;
         margin: 20px;
         padding: 10px;
         padding-left: 5px;
