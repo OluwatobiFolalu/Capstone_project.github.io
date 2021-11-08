@@ -9,39 +9,43 @@ body {
 }
 
 .box {
-    width: 400px;
-    height: 80vh; 
-    border-radius: 7%;
+    width: 385px;
+    height: 55vh; 
     background-color: white;
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
     position: relative;
-    bottom: 350px;
+   bottom: 200px;
     left: 500px;
 
 }
 
 .img-anim img {
     width: 100%;
-    max-width: 30%;
+    max-width: 28.9%;
     border-top-left-radius: 7%;
     border-top-right-radius: 7%;
     position: relative;
     left: 500px;
-    bottom: 900px ;
+    bottom: 753px ;
 }
 
 .section-2 {
     position: relative;
-    bottom: 900px;
+    bottom: 745px;
 }
 
 h1 {
     margin-left: 585px;
     color: hsl(223, 47%, 23%);
+    font-weight: 900;
 }
 
 .section-2 p {
+    width: 100%;
+    max-width: 20%;
     text-align: center;
-    margin-left: 80px;
+    margin-left: 560px;
     align-items: justify;
     font-size: 16px;
     color:  hsl(224, 23%, 55%);
@@ -53,8 +57,8 @@ h1 {
     height: 70px;
     max-width: 23.5%;
     position: relative;
-    bottom: 900px;
-    left: 550px;
+    bottom: 738px;
+    left: 537px;
     border-radius: 4%;
     background-color: hsl(225, 100%, 98%); 
 }
@@ -71,6 +75,7 @@ h1 {
     position: inherit;
     bottom: 70px;
     left: 80px;
+    font-weight: 700;
 }
 
 .section-3 p {
@@ -82,19 +87,29 @@ h1 {
     position: relative;
     bottom: 130px;
     left: 260px;
-    color: darkblue;
+    color: hsl(223, 47%, 23%);
 }
+
+a .change :hover {
+    text-decoration: none;
+}
+
+
 
 .pay {
     width: 100%;
-    max-width: 23%;
+    max-width: 23.2%;
     height: 40px;
-    margin-left: 550px;
-    margin-top: 25px;
+    margin-left: 537px;
+    margin-top: 27px;
     background-color: hsl(245, 75%, 52%);
     border: blue;
     color: hsl(225, 100%, 98%);
     border-radius: 10px;
+}
+
+.section-2 .pay :hover {
+    color: hsl(245, 75%, 52%);
 }
 .section-2 a{
     text-decoration: none;
@@ -106,10 +121,6 @@ h1 {
     font-weight: 500;
 }
 
-
- a :hover {
-    transform: scale(1.1);
-}
 
 
 
