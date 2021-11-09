@@ -1,1 +1,132 @@
 /*   The file represents the CSS for the project.  */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    max-width: 400px;
+    min-height: 400px;
+    border-radius: 15px;
+    box-shadow: 0 1rem 1rem rgba(0,0,0, .2);
+    background-color: #fff;
+    
+} 
+
+.image {
+    width: 100%;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.order {
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.summary h1 {
+    text-align: center;
+    font-weight: 150px;
+    font-size: 30px;
+    color: hsl(223, 47%, 23%);
+
+}
+.summary p {
+    text-align: center;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    padding: 10px 20px 20px 20px;
+}
+.icon {
+    display: flex;
+   flex-wrap: wrap;
+   background-color: hsl(225, 83%, 97%);
+   opacity: 0.7;
+   border-radius: 10px;
+   padding: 5px 5px;
+
+
+}
+.icon-image {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 5px!important;
+    border-radius: 100px!important;
+    background-color: hsl(225, 100%, 99%) !important;
+    
+    
+}
+.annual {
+    padding-right: 20px;
+    color:  hsl(225, 100%, 94%);
+   
+}
+.annual h2 {
+    color: hsl(223, 47%, 23%) !important;
+    font-size: 20px;
+    padding-bottom: 0px !important;
+}
+.annual p {
+    font-weight: 100px;
+    font-size: 20px;
+    margin-top: 0px;
+    padding-top: 0px !important;
+    color: hsl(224, 23%, 55%);
+  
+}
+.change {
+    padding-left: 40px;
+    margin-top: 20px;
+   font-weight: 500px;
+    text-decoration: none;
+    color:  hsl(223, 47%, 23%);
+}
+
+.btn {
+    font-size: 18px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 300px;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 25px 10px 25px;
+    box-shadow: 0 0.6rem 0.6rem rgba(0,0,0, .3);
+}
+
+.cancel{
+    padding: 20px 0 40px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    
+}
+.cancel:hover,
+.btn:hover{
+    cursor: pointer;
+}
+
+
+@media (max-width: 375px){
+    .container{
+        max-width: 300px;
+      
+        margin: 10px;
+    }
+}
