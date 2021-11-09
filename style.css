@@ -16,25 +16,72 @@ body{
     font-family:  'Red Hat Display', sans-serif;
 }
 .girl{
-    width: 100%;
+    width: 100%;;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    
 }
 h2{
+    font-family:  'Red Hat Display', sans-serif;
     font-size: 23px;
     text-align: center;
     color: rgb(39, 47, 54);
-    text-shadow: hsl(225, 100%, 94%);   
-    margin: 20px;
+    text-shadow: hsl(225, 100%, 94%);
+    margin: 40px;
 }
 section{
     border: 1px solid paleturquoise;
     background-color:rgba(198, 236, 243, 0.3);
-    margin: 40px;
+    margin: 20px;
+    padding-left: 5px;
     border-radius: 10px;
+}
+.Annual{
+    display:flex;
+    font-display: center;
+    padding-top: 7px;
+    display: inline-flex;
+}
+a{
+    text-decoration: underline royalblue;
+    padding-left: 25px;
+    margin-top: 10px; 
+    padding-right: 25px;
+    color: royalblue;
+
 }
 p{
     text-align:center;
-    font-size: 20px;
+    font-size: 17px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+div{
+    
+}
+button{
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 35px;
+}
+.ptp{
+    border: 10px solid navy;
+    border-radius: 12px;
+    color: white;
+    background-color: navy;
+    font-family: 'Red Hat Display', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 60px;
+    box-shadow: 5px 10px 7px rgba(101, 92, 221, 0.096);
+}
+.co{
+    border: hidden;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 90px;
+    margin-bottom: 30px;
+    font-family: 'Red Hat Display', sans-serif;
 }
