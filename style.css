@@ -82,6 +82,7 @@ body{
     color: hsl(223, 47%, 23%) !important;
     font-size: 20px;
     padding-bottom: 0px !important;
+    font-weight: 200px;
 }
 .annual p {
     font-weight: 100px;
